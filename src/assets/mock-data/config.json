@@ -1,0 +1,269 @@
+{
+  "navGrids": [
+    {
+      "color": "#509e2f",
+      "gridRows": [
+      [
+        {
+          "type": "header",
+          "backgroundType": "solid",
+          "colspan": 2,
+          "image": "",
+          "icon": "",
+          "label": "Information",
+          "url": "",
+          "action": "",
+          "disabled": false
+        },
+        {
+          "type": "basic",
+          "backgroundType": "solid",
+          "colspan": 1,
+          "image": "",
+          "icon": "/assets/icon_weather.png",
+          "label": "Weather",
+          "url": "",
+          "action": "",
+          "disabled": true
+        }
+      ],
+      [
+        {
+          "type": "filler",
+          "backgroundType": "strips",
+          "colspan": 1,
+          "image": "",
+          "icon": "",
+          "label": "",
+          "url": "",
+          "action": "",
+          "disabled": false
+        },
+        {
+          "type": "image",
+          "backgroundType": "solid",
+          "colspan": 2,
+          "image": "/assets/infoImage.png",
+          "icon": "",
+          "label": "",
+          "url": "",
+          "action": "",
+          "disabled": false
+        }
+      ],
+      [
+        {
+          "type": "basic",
+          "backgroundType": "solid",
+          "colspan": 1,
+          "image": "",
+          "icon": "/assets/icon_google.png",
+          "label": "Search",
+          "url": "",
+          "action": "",
+          "disabled": false
+        },
+        {
+          "type": "basic",
+          "backgroundType": "solid",
+          "colspan": 1,
+          "image": "",
+          "icon": "/assets/icon_directions.png",
+          "label": "Directions",
+          "url": "",
+          "action": "",
+          "disabled": false
+        },
+        {
+          "type": "basic",
+          "backgroundType": "solid",
+          "colspan": 1,
+          "image": "",
+          "icon": "/assets/icon_news.png",
+          "label": "News",
+          "url": "",
+          "action": "",
+          "disabled": true
+        }
+      ]
+    ]
+    }
+    ,
+    {
+      "color": "#008eaa",
+      "gridRows": [
+        [
+          {
+            "type": "header",
+            "backgroundType": "solid",
+            "colspan": 2,
+            "image": "",
+            "icon": "",
+            "label": "Productivity",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_thumbdrive.png",
+            "label": "Access USB stick",
+            "url": "",
+            "action": "",
+            "disabled": true
+          }
+        ],
+        [
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_excel.png",
+            "label": "Excel",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_powerpoint.png",
+            "label": "PowerPoint",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_word.png",
+            "label": "Word",
+            "url": "",
+            "action": "",
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "filler",
+            "backgroundType": "strips",
+            "colspan": 1,
+            "image": "",
+            "icon": "",
+            "label": "",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "image",
+            "backgroundType": "solid",
+            "colspan": 2,
+            "image": "/assets/productiveImage.png",
+            "icon": "",
+            "label": "",
+            "url": "",
+            "action": "",
+            "disabled": false
+          }
+        ]
+      ]
+    },
+    {
+      "color": "#f9423a",
+      "gridRows": [
+        [
+          {
+            "type": "header",
+            "backgroundType": "solid",
+            "colspan": 2,
+            "image": "",
+            "icon": "",
+            "label": "Social",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_youtube.png",
+            "label": "YouTube",
+            "url": "",
+            "action": "",
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "backgroundType": "solid",
+            "colspan": 2,
+            "image": "/assets/socialImage.png",
+            "icon": "",
+            "label": "",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "strips",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_facebook.png",
+            "label": "Facebook",
+            "url": "",
+            "action": "",
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_twitter.png",
+            "label": "Twitter",
+            "url": "",
+            "action": "",
+            "disabled": false
+          },
+          {
+            "type": "basic",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "/assets/icon_linkedIn.png",
+            "label": "LinkedIn",
+            "action": "",
+            "url": "",
+            "disabled": true
+          },
+          {
+            "type": "filler",
+            "backgroundType": "solid",
+            "colspan": 1,
+            "image": "",
+            "icon": "",
+            "label": "",
+            "url": "",
+            "action": "",
+            "disabled": false
+          }
+        ]
+      ]
+    }
+  ]
+}

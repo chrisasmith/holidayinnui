@@ -1,0 +1,15 @@
+<div class="container">
+    <header>
+        <app-header></app-header>
+    </header>
+
+    <main>
+        <div *ngFor="let grid of config; let idx = index;" class="nav-grid grid-{{idx}}">
+            <app-nav-grid [data]="grid"></app-nav-grid>
+        </div>
+    </main>
+
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</div>

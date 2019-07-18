@@ -1,0 +1,6 @@
+<div class="grid-row">
+    <app-grid-square
+            *ngFor="let row of rowData; let idx = index;"
+            [ngClass]="{'rowspan': row.colspan === 2, 'base': row.colspan === 1}"
+            [data]="row" [color]="setBgColor(row.type, idx)" (click)="onGridSquareClick(idx, row.disabled)"></app-grid-square>
+</div>

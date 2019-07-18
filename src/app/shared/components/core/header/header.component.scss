@@ -1,0 +1,44 @@
+:host {
+  .container {
+    display: grid;
+
+    grid-template-areas:
+            "header"
+            "content";
+
+    grid-template-rows: 50px 200px;
+    grid-gap: 0px;
+
+    header {
+      grid-area: header;
+
+      display: flex;
+      justify-content: flex-start;
+      button {
+        padding-left: 10px;
+      }
+    }
+
+    main {
+      grid-area: content;
+      display: flex;
+      #slogan {
+        flex: 1 1 75%;
+        .slogan-text {
+          font-size: 3em;
+          padding-top: 50px;
+          color: #23ae49;
+          text-align: right;
+        }
+      }
+      #logo {
+        flex: 1 1 auto;
+        justify-content: end;
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

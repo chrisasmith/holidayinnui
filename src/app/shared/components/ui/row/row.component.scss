@@ -1,0 +1,14 @@
+:host{
+  .grid-row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .base {
+    flex: 1;
+  }
+  .rowspan {
+    flex: 2;
+  }
+}
